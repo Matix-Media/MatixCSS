@@ -1,0 +1,68 @@
+$red: #d7263d
+$orange: #f46036
+$purple: #2E294E
+$turkish: #1B998B
+$green: #C5D86D
+$information-phone: "only screen and (max-width : 400px)"
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&family=Lato:wght@300;400;700&display=swap')
+
+body
+    background-color: white
+    margin: 0
+    font-family: 'Lato'
+
+    p, a, h1, h2, h3, h4, h5, h6
+        margin: 0
+
+    h1, h2, h3
+        font-family: 'Kumbh Sans'
+
+    a:link, a:visited
+        color: $turkish
+
+        &:hover, &:focus
+            color: $orange
+
+    hr
+        border: none
+        height: 1px
+        background-color: $green
+
+    button
+        background-color: $orange
+        border: 3px solid $orange
+        color: white
+        font: inherit
+        padding: .7em
+        border-radius: .3rem
+        cursor: pointer
+        outline: none
+        transition: background .3s, border .3s
+        box-sizing: border-box
+
+        &:hover, &:focus
+            background-color: $red
+            border: 3px solid $red
+
+    input
+        border: 3px solid rgba(244, 96, 54,.5)
+        outline: none
+        font: inherit
+        border-radius: .3rem
+        padding: .7em
+        transition: border .3s
+        box-sizing: border-box
+
+        &:focus, &:hover
+            border: 3px solid rgba(215, 38, 61,.5)
+
+
+    div.container
+        width: 60%
+        margin: 0 auto
+
+        @media #{$information-phone}
+            width: 90%
+  
