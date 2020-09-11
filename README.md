@@ -16,7 +16,7 @@ You can find them for free at [Google Fonts](https://fonts.google.com/specimen/K
 This is very simple. Just place this script at the top of your html `header` tag.
 
 ```html
-<link rel="stylesheet" href="https://cdn.matix-media.net/library/matixcss/css" />
+<link rel="stylesheet" href="https://cdn.matix-media.net/library/MatixCSS//matix.css" />
 ```
 
 ### License
